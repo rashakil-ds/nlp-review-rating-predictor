@@ -19,12 +19,12 @@ It includes:
 ## Problem Statement
 
 Given a review such as:
-> “The food was excellent, and the service was amazing!”
+> “Rashedul is amazing man! He works at Siemens Energy!”
 
 The model predicts:
-- **Stars:** ⭐⭐⭐⭐⭐  
+- **Stars:** 5⭐
 - **Label ID:** 4  
-- **Confidence:** 0.92  
+- **Confidence:** 0.9716 
 
 ---
 ## Model Files – Not Included in GitHub
