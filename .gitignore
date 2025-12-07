@@ -1,34 +1,30 @@
-#Ignore data folders
 data/
 datasets/
 *.csv
 *.jsonl
 
-#Ignore all model weights
+#training checkpoints (huge)
+**/checkpoint*/
+**/checkpoints/
+
+#HuggingFace cache
+huggingface/
+cache/
+
+#model weights
 *.bin
 *.pt
 *.pth
 *.safetensors
-models/
-ml_training/models/
 
-#Ignore HuggingFace cache
-huggingface/
-cache/
-**/checkpoint*/
-*.ipynb_checkpoints/
-
-#Ignore Python cache
 __pycache__/
 *.pyc
+*.pyo
 
-#Ignore virtual environments
+#Virtual environments
 venv/
 env/
 .venv/
-
-#Ignore large logs
+*.ipynb_checkpoints/
 *.log
-
-#Ignore temporary files
 *.tmp
