@@ -19,26 +19,11 @@ It includes:
 ## Problem Statement
 
 Given a review such as:
-> “Rashedul is amazing man! He works at Siemens Energy!”
+> “Rashedul is amazing, man! He works at Siemens Energy!”
 
 The model predicts:
 - **Stars:** 5⭐
-- **Label ID:** 4  
 - **Confidence:** 0.9716 
-
----
-## Model Files – Not Included in GitHub
-
-```text
-models/best_model_distilbert/
-├── config.json
-├── tokenizer.json
-├── tokenizer_config.json
-├── vocab.txt
-├── special_tokens_map.json
-├── model.safetensors
-├── label2id.json
-└── id2label.json
 
 
 Thank you
