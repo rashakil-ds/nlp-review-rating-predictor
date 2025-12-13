@@ -1,4 +1,5 @@
 # BERT-Based End-to-End NLP Review Rating Predictor  
+Run -> (APP Link)[https://review-rating-ai.streamlit.app/]
 A NLP pipeline that predicts 1–5 star ratings from text reviews using a fine-tuned DistilBERT model.
 
 ---
